@@ -7,77 +7,79 @@ export default function TermsOfUse() {
       <Navbar />
       
       <main className="pt-32 pb-24 px-6 md:px-12 max-w-3xl mx-auto text-midnight/80">
-        <h1 className="heading-lg text-4xl md:text-5xl text-midnight mb-2">Terms of Use</h1>
-        <h2 className="text-xl md:text-2xl text-coral mb-4">Moonshot Mindset / Moonshot Foundation</h2>
+        <h1 className="heading-lg text-4xl md:text-5xl text-midnight mb-2">MOONSHOT MINDSET — TERMS OF USE</h1>
         
-        <p className="mb-1 text-sm font-semibold">Effective Date: April 8, 2026</p>
-        <p className="mb-8 text-sm font-semibold">Last Updated: April 8, 2026</p>
+        <p className="mb-1 text-sm font-semibold mt-4">Effective Date: April 14, 2026</p>
+        <p className="mb-8 text-sm font-semibold">Last Updated: April 14, 2026</p>
         
         <hr className="border-midnight/10 mb-10" />
         
         <div className="space-y-6 text-lg leading-relaxed">
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">The short version</h3>
-          <p>Use this site and our programs in good faith. Don't misuse what we've built. Moonshot Academy is free because we believe everyone deserves access to this work — please treat it accordingly. The full legal terms are below.</p>
+          <p>Moonshot Mindset is a for-profit educational platform operated by Armstrong Ventures, Inc. Use this site in good faith. The content here is for educational purposes — it is not therapy, medical advice, or professional coaching. The full legal terms are below.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">1. Who these terms apply to</h3>
-          <p>These Terms of Use govern your access to and use of moonshotmindset.com (the "Site") and Moonshot Academy (the "Program"), operated by the Moonshot Foundation, a 501(c)3 nonprofit organization (EIN: 39-4484308), located at 8605 Santa Monica Blvd. #40215, West Hollywood, CA 90069.</p>
-          <p>By accessing the Site or participating in the Program, you agree to these terms. If you do not agree, please do not use the Site or the Program.</p>
-          <p>Questions? Contact us at <a href="mailto:hello@moonshotmindset.com" className="text-coral hover:underline">hello@moonshotmindset.com</a>.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">1. Who operates this site</h3>
+          <p>Moonshot Mindset (moonshotmindset.co) is operated by Armstrong Ventures, Inc., doing business as Moonshot Mindset ("Moonshot Mindset," "we," "us," or "our"), a California S-Corporation.</p>
+          <p>By accessing or using this site, you agree to these Terms of Use. If you do not agree, please do not use the site.</p>
+          <p>Questions? Contact us at <a href="mailto:hello@moonshotmindset.co" className="text-coral hover:underline">hello@moonshotmindset.co</a>.</p>
+          <p className="mt-4"><strong>Important distinction:</strong> Moonshot Academy — including its curriculum and methodology — is owned by Armstrong Ventures, Inc. The Moonshot Foundation is a separate 501(c)(3) nonprofit (EIN: 39-4484308) whose mission is to make the Academy available, free of charge, to anyone who wants it and as effective as possible. Armstrong Ventures does not charge the Foundation for use of the Academy. Donations to the Foundation are governed by the Foundation's own terms, privacy policy, and legal structure — not these.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">2. What Moonshot offers</h3>
-          <p><strong>Moonshot Mindset</strong> (moonshotmindset.com) is the consumer-facing website for Moonshot Academy and related educational content produced by the Moonshot Foundation.</p>
-          <p><strong>Moonshot Academy</strong> is a free, six-week behavior change program delivered via live Zoom sessions. Participation is subject to application and acceptance. Being on the waitlist or newsletter does not guarantee a spot in any particular cohort.</p>
-          <p><strong>The Moonshot Method</strong> refers to the behavioral science framework developed and taught by the Moonshot Foundation. Educational content about the Moonshot Method is provided for personal development purposes only.</p>
-          <p><strong>The Moonshot newsletter</strong> is a free email publication. You may unsubscribe at any time.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">2. What Moonshot Mindset offers</h3>
+          <p>Moonshot Mindset is an educational platform focused on behavior change, mindset, and the science of human transformation. Current offerings include:</p>
+          <ul className="list-disc pl-6 space-y-2 mt-4">
+            <li>Educational content about the Moonshot Method, behavioral science, and digital habits</li>
+            <li>The Moonshot newsletter, a free publication</li>
+            <li>Moonshot Academy, a free six-week behavior change program</li>
+            <li>Future paid courses, products, and services (governed by additional terms at point of purchase)</li>
+          </ul>
+          <p className="mt-4">We reserve the right to change, add, or discontinue any offering at any time.</p>
 
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">3. Not professional advice</h3>
-          <p>The content on this site and in Moonshot Academy — including all information about behavior change, neuroscience, habit formation, mindset, and related topics — is provided for educational and informational purposes only.</p>
-          <p>It is not a substitute for professional medical, psychological, psychiatric, therapeutic, legal, financial, or any other professional advice. If you are experiencing a mental health crisis, please contact a licensed mental health professional or a crisis helpline immediately.</p>
-          <p className="mt-6 font-semibold pb-2">By using this site and participating in the Program, you acknowledge that:</p>
+          <p>Everything on this site — including all content about behavior change, neuroscience, habit formation, mindset, digital wellness, and related topics — is provided for educational and informational purposes only.</p>
+          <p>It is not a substitute for professional medical, psychological, psychiatric, therapeutic, legal, financial, or any other licensed professional advice or treatment. If you are experiencing a mental health crisis, contact a licensed mental health professional or crisis helpline immediately.</p>
+          <p className="mt-6 font-semibold pb-2">By using this site, you acknowledge that:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Moonshot Academy is an educational program, not a clinical or therapeutic service</li>
-            <li>Results vary and are not guaranteed</li>
-            <li>You are responsible for your own decisions, actions, and outcomes</li>
-            <li>David Armstrong and the Moonshot Foundation are not your therapist, doctor, coach, or financial advisor</li>
+            <li>Moonshot Mindset is an educational platform, not a clinical or therapeutic service</li>
+            <li>David Armstrong is an educator and program designer, not your therapist, doctor, coach, or financial advisor</li>
+            <li>Results from applying any educational content vary and are not guaranteed</li>
+            <li>You are solely responsible for your own decisions, actions, and outcomes</li>
           </ul>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">4. Moonshot Academy participation</h3>
-          <p><strong>Eligibility:</strong> Moonshot Academy is open to adults 18 years of age or older. By applying, you represent that you meet this requirement.</p>
-          <p><strong>Commitment:</strong> Participants are expected to attend live weekly sessions on Zoom and complete approximately one hour of independent practice per week. We invest significant time and resources in each cohort. Out of respect for your fellow participants and our team, please only apply if you are ready to commit.</p>
-          <p><strong>Conduct:</strong> Participants are expected to engage respectfully, support fellow cohort members, and contribute to a safe and constructive learning environment. We reserve the right to remove any participant who is disruptive, disrespectful, or who violates these terms, without refund of any kind (there is no payment, so there is nothing to refund).</p>
-          <p><strong>Recording:</strong> Moonshot Academy sessions may be recorded for program improvement and internal use. By participating, you consent to being recorded. We will not share recordings publicly without your explicit consent.</p>
-          <p><strong>No guarantee of outcomes:</strong> Moonshot Academy teaches skills and frameworks. Individual results depend on your engagement, effort, consistency, and circumstances. We cannot and do not guarantee specific outcomes. The science is solid. The framework is proven. What you do with it is up to you.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">4. Paid products and services</h3>
+          <p>When Moonshot Mindset offers paid products or services, additional terms specific to those purchases will be presented at checkout. Those terms are incorporated into these Terms of Use by reference. All sales are final unless otherwise stated at point of purchase.</p>
+          <p>We do not currently process payouts directly. Any future payment processing will be handled by third-party providers subject to their own terms.</p>
 
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">5. Intellectual property</h3>
-          <p><strong>Our content:</strong> All content on this site — including text, design, images, graphics, the Moonshot Method framework, curriculum materials, session recordings, and the Moonshot brand — is owned by or licensed to the Moonshot Foundation and protected by copyright, trademark, and other intellectual property laws.</p>
+          <p>All content on this site — including text, design, graphics, the Moonshot Method framework, curriculum materials, course content, videos, and the Moonshot Mindset brand — is owned by Armstrong Ventures, Inc. and is protected by copyright, trademark, and other applicable intellectual property laws.</p>
+          <p>Moonshot Academy — including its curriculum and methodology — is owned by Armstrong Ventures, Inc. The Moonshot Foundation is a separate 501(c)(3) nonprofit whose mission is to make the Academy available, free of charge, to anyone who wants it. Armstrong Ventures does not charge the Foundation for use of the Academy.</p>
           
-          <p className="mt-6 font-semibold pb-2">What you may do:</p>
+          <p className="mt-6 font-semibold pb-2">You may:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Access and use the site for your own personal, non-commercial purposes</li>
-            <li>Share links to the site on social media and elsewhere</li>
-            <li>Quote brief excerpts with attribution to Moonshot Foundation</li>
+            <li>Access and use this site for your own personal, non-commercial purposes</li>
+            <li>Share links to site content</li>
+            <li>Quote brief excerpts with clear attribution to Moonshot Mindset</li>
           </ul>
 
-          <p className="mt-6 font-semibold pb-2">What you may not do:</p>
+          <p className="mt-6 font-semibold pb-2">You may not:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Reproduce, distribute, or publicly display substantial portions of our content without written permission</li>
-            <li>Use the Moonshot name, logo, or brand for commercial purposes without written permission</li>
+            <li>Reproduce, distribute, sell, or publicly display substantial portions of our content without written permission</li>
+            <li>Use the Moonshot Mindset name, logo, or brand for commercial purposes without written permission</li>
             <li>Create derivative works from our curriculum or methodology for commercial use</li>
             <li>Claim authorship of our content</li>
-            <li>Scrape or systematically collect content from the site</li>
+            <li>Systematically scrape or collect content from the site</li>
           </ul>
           
-          <p className="mt-6 pb-4">If you'd like to partner with us, collaborate, or use our content in a way not covered above, we'd love to hear from you. Contact us at <a href="mailto:hello@moonshotmindset.com" className="text-coral hover:underline">hello@moonshotmindset.com</a>.</p>
+          <p className="mt-6 pb-4">If you'd like to collaborate, partner, or license our content, contact us at <a href="mailto:hello@moonshotmindset.co" className="text-coral hover:underline">hello@moonshotmindset.co</a>.</p>
 
           <hr className="border-midnight/10 my-10" />
 
@@ -85,89 +87,67 @@ export default function TermsOfUse() {
           <p className="font-semibold pb-2">By using this site, you agree not to:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Use the site for any unlawful purpose or in violation of these terms</li>
-            <li>Post or transmit harmful, threatening, harassing, defamatory, or offensive content</li>
-            <li>Attempt to gain unauthorized access to any part of the site or its systems</li>
+            <li>Transmit harmful, threatening, harassing, defamatory, or offensive content</li>
+            <li>Attempt unauthorized access to any portion of the site or its systems</li>
+            <li>Use automated tools to scrape or collect information from the site without permission</li>
+            <li>Impersonate any person or misrepresent your affiliation with any entity</li>
             <li>Interfere with or disrupt the site or its infrastructure</li>
-            <li>Use automated tools to access or collect information from the site without permission</li>
-            <li>Impersonate any person or entity or misrepresent your affiliation with any person or entity</li>
-            <li>Use the site in any way that could damage, disable, or impair it</li>
           </ul>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">7. Newsletter and communications</h3>
-          <p className="pb-4">By subscribing to the Moonshot newsletter, you consent to receive email communications from us. You may unsubscribe at any time via the link in any email. We do not send spam. We do not share your email with third parties for marketing purposes.</p>
-          <p>See our Privacy Policy for full details on how we handle your information.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">7. Newsletter and email communications</h3>
+          <p className="pb-4">By subscribing to the Moonshot Mindset newsletter, you consent to receive email communications from us. You may unsubscribe at any time via the link in any email. We do not sell or share your email address with third parties for their marketing purposes. See our Privacy Policy for full details.</p>
 
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">8. Third-party services</h3>
-          <p>The site and Program use third-party services including:</p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Kit (formerly ConvertKit)</strong> for email newsletter management</li>
-            <li><strong>Zoom</strong> for live program sessions</li>
-            <li><strong>Payment processors</strong> for donation processing</li>
-          </ul>
-          <p className="mt-6 pb-4">Your use of these services is subject to their own terms and privacy policies. We are not responsible for the practices of third-party services.</p>
+          <p className="pb-4">This site uses third-party services including Kit (formerly ConvertKit) for email management and may use additional services in the future. Your use of those services is subject to their own terms and privacy policies. We are not responsible for third-party practices.</p>
+          <p className="pb-4">Links to third-party sites are provided for convenience. We do not endorse and are not responsible for the content or practices of any third-party site.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">9. Donations</h3>
-          <p>The Moonshot Foundation is a 501(c)3 nonprofit. Donations are tax-deductible to the full extent allowed by law. Donations are voluntary and non-refundable except in cases of processing error. We will provide a donation receipt for your records.</p>
-          <p className="pb-4">Donations fund the Moonshot Foundation's mission and programs. While we are grateful for every contribution, donations do not guarantee acceptance into Moonshot Academy or any other program, nor do they entitle the donor to any specific service, product, or outcome.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">9. Disclaimer of warranties</h3>
+          <p className="pb-4">This site and its content are provided "as is" and "as available," without warranties of any kind, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the site will be uninterrupted, error-free, or free of harmful components, or that any content is accurate, complete, or current.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">10. Disclaimer of warranties</h3>
-          <p>The site and program are provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
-          <p className="pb-4">We do not warrant that the site will be uninterrupted, error-free, or free of viruses or other harmful components. We do not warrant that any information on the site is accurate, complete, or current.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">10. Limitation of liability</h3>
+          <p>To the maximum extent permitted by applicable law, Armstrong Ventures, Inc., its officers, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages — including loss of profits, data, or goodwill — arising out of or in connection with your use of or inability to use this site or its content.</p>
+          <p>Our total liability to you for any claim arising out of or relating to these terms or your use of this site shall not exceed the greater of (a) the amount you paid us in the twelve months preceding the claim, or (b) $100.</p>
+          <p className="pb-4">Some jurisdictions do not allow certain liability limitations, so some of the above may not apply to you.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">11. Limitation of liability</h3>
-          <p>To the maximum extent permitted by applicable law, the Moonshot Foundation, its officers, directors, employees, volunteers, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising out of or in connection with your use of or inability to use the site or program.</p>
-          <p>Our total liability to you for any claim arising out of or relating to these terms or your use of the site shall not exceed $100.</p>
-          <p className="pb-4">Some jurisdictions do not allow the exclusion or limitation of certain damages, so some of the above limitations may not apply to you.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">11. Indemnification</h3>
+          <p className="pb-4">You agree to indemnify and hold harmless Armstrong Ventures, Inc. and its officers, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of your use of this site, your violation of these terms, or your violation of any rights of another party.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">12. Indemnification</h3>
-          <p className="pb-4">You agree to indemnify, defend, and hold harmless the Moonshot Foundation and its officers, directors, employees, volunteers, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with your access to or use of the site or program, your violation of these terms, or your violation of any rights of another person or entity.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">12. Governing law and disputes</h3>
+          <p>These terms are governed by the laws of the State of California, without regard to conflict of law principles.</p>
+          <p>Any dispute arising out of or relating to these terms that cannot be resolved informally shall be submitted to binding arbitration in Los Angeles County, California, under the rules of the American Arbitration Association. You waive your right to a jury trial and to participate in a class action.</p>
+          <p className="pb-4">Nothing in this section prevents either party from seeking injunctive relief in a court of competent jurisdiction.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">13. Governing law and disputes</h3>
-          <p>These terms are governed by the laws of the State of California, without regard to its conflict of law provisions.</p>
-          <p>Any dispute arising out of or relating to these terms or your use of the site that cannot be resolved informally shall be submitted to binding arbitration in Los Angeles County, California, in accordance with the rules of the American Arbitration Association. You waive your right to a jury trial and to participate in a class action lawsuit.</p>
-          <p className="pb-4">Nothing in this section prevents either party from seeking injunctive or other equitable relief in a court of competent jurisdiction where appropriate.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">13. Changes to these terms</h3>
+          <p className="pb-4">We may update these terms at any time. Material changes will be communicated to newsletter subscribers by email. The "Last Updated" date at the top reflects the most recent revision. Continued use of the site after changes are posted constitutes acceptance of the updated terms.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">14. Changes to these terms</h3>
-          <p className="pb-4">We may update these terms from time to time. When we do, we will update the "Last Updated" date at the top. Material changes will be communicated to newsletter subscribers by email. Your continued use of the site after changes are posted constitutes acceptance of the updated terms.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">14. Severability</h3>
+          <p className="pb-4">If any provision of these terms is found unenforceable, the remaining provisions continue in full force.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">15. Severability</h3>
-          <p className="pb-4">If any provision of these terms is found to be unenforceable, the remaining provisions will continue in full force and effect.</p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">15. Entire agreement</h3>
+          <p className="pb-4">These terms, together with our Privacy Policy, constitute the entire agreement between you and Armstrong Ventures, Inc. regarding your use of this site, and supersede any prior agreements.</p>
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">16. Entire agreement</h3>
-          <p className="pb-4">These terms, together with our Privacy Policy, constitute the entire agreement between you and the Moonshot Foundation regarding your use of the site and program, and supersede any prior agreements.</p>
-
-          <hr className="border-midnight/10 my-10" />
-
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">17. Contact us</h3>
-          <p>If you have questions about these terms:</p>
-
-          <p className="mt-4 font-semibold text-midnight pb-8">
-            Moonshot Foundation<br />
-            8605 Santa Monica Blvd. #40215<br />
-            West Hollywood, CA 90069<br />
-            <a href="mailto:hello@moonshotmindset.com" className="text-coral hover:underline font-normal">hello@moonshotmindset.com</a><br />
-            <span className="font-normal">(424) 888-2735</span>
-          </p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">16. Contact</h3>
+          <p className="pb-8">Armstrong Ventures, Inc. DBA Moonshot Mindset, <a href="mailto:hello@moonshotmindset.co" className="text-coral hover:underline font-normal">hello@moonshotmindset.co</a></p>
 
         </div>
       </main>

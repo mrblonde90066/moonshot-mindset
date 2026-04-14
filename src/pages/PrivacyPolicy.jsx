@@ -7,11 +7,10 @@ export default function PrivacyPolicy() {
       <Navbar />
       
       <main className="pt-32 pb-24 px-6 md:px-12 max-w-3xl mx-auto text-midnight/80">
-        <h1 className="heading-lg text-4xl md:text-5xl text-midnight mb-2">Privacy Policy</h1>
-        <h2 className="text-xl md:text-2xl text-coral mb-4">Moonshot Mindset / Moonshot Foundation</h2>
+        <h1 className="heading-lg text-4xl md:text-5xl text-midnight mb-2">MOONSHOT MINDSET — PRIVACY POLICY</h1>
         
-        <p className="mb-1 text-sm font-semibold">Effective Date: April 8, 2026</p>
-        <p className="mb-8 text-sm font-semibold">Last Updated: April 8, 2026</p>
+        <p className="mb-1 text-sm font-semibold mt-4">Effective Date: April 14, 2026</p>
+        <p className="mb-8 text-sm font-semibold">Last Updated: April 14, 2026</p>
         
         <hr className="border-midnight/10 mb-10" />
         
@@ -22,9 +21,10 @@ export default function PrivacyPolicy() {
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">1. Who we are</h3>
-          <p>Moonshot Mindset is a consumer brand of the Moonshot Foundation, a 501(c)3 nonprofit organization (EIN: 39-4484308), located at 8605 Santa Monica Blvd. #40215, West Hollywood, CA 90069.</p>
-          <p>When this policy says "Moonshot," "we," "us," or "our," it means the Moonshot Foundation and its programs, including Moonshot Academy and Moonshot Mindset.</p>
-          <p>Questions about this policy? Contact us at <a href="mailto:privacy@moonshotmindset.com" className="text-coral hover:underline">privacy@moonshotmindset.com</a>.</p>
+          <p>Moonshot Mindset (moonshotmindset.co) is operated by Armstrong Ventures, Inc., doing business as Moonshot Mindset, a California S-Corporation.</p>
+          <p>When this policy says "Moonshot Mindset," "we," "us," or "our," it means Armstrong Ventures, Inc. and its Moonshot Mindset platform, including Moonshot Academy.</p>
+          <p>The Moonshot Foundation is a separate 501(c)(3) nonprofit organization (EIN: 39-4484308) whose mission is to make the Academy available, free of charge, to anyone who wants it. The Foundation has its own privacy policy governing donations and Foundation-specific communications.</p>
+          <p>Questions about this policy? Contact us at <a href="mailto:privacy@moonshotmindset.co" className="text-coral hover:underline">privacy@moonshotmindset.co</a>.</p>
 
           <hr className="border-midnight/10 my-10" />
 
@@ -38,13 +38,13 @@ export default function PrivacyPolicy() {
 
           <p className="font-semibold text-midnight mt-6">Information collected automatically:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Usage data</strong> — pages visited, time on site, referring pages, browser type, and general geographic location (city/country level). This is collected via standard web analytics.</li>
+            <li><strong>Usage data</strong> — pages visited, time on site, referring pages, browser type, and general geographic location (city/country level), collected via standard web analytics</li>
             <li><strong>Cookies</strong> — we use essential cookies to make the site function and, if you consent, analytics cookies to understand how people use the site. We do not use advertising cookies.</li>
           </ul>
 
           <p className="font-semibold text-midnight mt-6">Information we do NOT collect:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>We do not collect payment information directly. If you donate, payments are processed by a third-party processor (such as Stripe) that has its own privacy policy.</li>
+            <li>We do not collect payment information directly. Any future payment processing will be handled by third-party providers with their own privacy policies.</li>
             <li>We do not collect sensitive personal information such as health data, financial records, or government ID numbers.</li>
             <li>We do not build behavioral profiles for advertising purposes.</li>
           </ul>
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
             <li>Communicate with you about your Moonshot Academy application and participation</li>
             <li>Improve the website and understand how people find and use it</li>
             <li>Respond to your questions and requests</li>
-            <li>Meet our legal obligations as a nonprofit</li>
+            <li>Meet our legal obligations</li>
           </ul>
 
           <p className="mt-6">We do not use your information to:</p>
@@ -79,12 +79,11 @@ export default function PrivacyPolicy() {
             <li><strong>Kit (formerly ConvertKit)</strong> — email newsletter platform. Your name and email are stored there when you subscribe. Kit's privacy policy is at kit.com/privacy.</li>
             <li><strong>Analytics provider</strong> — we use privacy-respecting web analytics to understand site traffic. We do not share personally identifiable information with our analytics provider.</li>
             <li><strong>Zoom</strong> — Moonshot Academy sessions are held on Zoom. When you join a session, Zoom's own privacy policy applies.</li>
-            <li><strong>Payment processors</strong> — if you donate, your payment is handled by a third-party processor. We receive a record of the donation but not your full payment details.</li>
           </ul>
 
           <p><strong>Legal requirements:</strong> We may disclose information if required to do so by law, court order, or governmental authority.</p>
 
-          <p><strong>Organizational transfers:</strong> If the Moonshot Foundation merges with or transfers its assets to another nonprofit, your information may transfer as part of that transaction. We will notify you if that happens.</p>
+          <p><strong>Organizational transfers:</strong> If Armstrong Ventures, Inc. transfers its assets or business, your information may transfer as part of that transaction. We will notify you if that happens.</p>
 
           <p className="mt-6 font-semibold pb-4">We do not sell, rent, trade, or otherwise share your personal information for commercial purposes. Full stop.</p>
 
@@ -94,8 +93,7 @@ export default function PrivacyPolicy() {
           <p>When you subscribe to our newsletter, you will receive:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>The Moonshot newsletter (frequency varies — typically weekly or biweekly)</li>
-            <li>Occasional updates about Moonshot Academy programs and cohorts</li>
-            <li>Occasional updates about the Moonshot Foundation</li>
+            <li>Occasional updates about Moonshot Mindset programs, content, and offerings</li>
           </ul>
 
           <p className="mt-6 pb-4">You can unsubscribe at any time by clicking the unsubscribe link at the bottom of any email. We will remove you promptly. We do not send spam. We do not share your email with other organizations for marketing purposes.</p>
@@ -113,7 +111,7 @@ export default function PrivacyPolicy() {
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">7. Data retention</h3>
           <p>We keep your information for as long as your relationship with us is active, or as long as needed to provide services, comply with legal obligations, resolve disputes, and enforce agreements.</p>
           <p>If you unsubscribe from our newsletter, we will remove you from active mailing lists. We may retain a record of your email address to honor future unsubscribe requests.</p>
-          <p className="pb-4">If you would like us to delete all information we hold about you, contact us at <a href="mailto:privacy@moonshotmindset.com" className="text-coral hover:underline">privacy@moonshotmindset.com</a> and we will do so within 30 days, except where we are required by law to retain certain records.</p>
+          <p className="pb-4">If you would like us to delete all information we hold about you, contact us at <a href="mailto:privacy@moonshotmindset.co" className="text-coral hover:underline">privacy@moonshotmindset.co</a> and we will do so within 30 days, except where we are required by law to retain certain records.</p>
 
           <hr className="border-midnight/10 my-10" />
 
@@ -130,12 +128,12 @@ export default function PrivacyPolicy() {
 
           <p className="mt-6"><strong>California residents (CCPA):</strong> You have the right to know what personal information we collect, to delete it, to opt out of its sale (we do not sell it), and to non-discrimination for exercising these rights.</p>
           <p><strong>EU/UK residents (GDPR):</strong> Our legal bases for processing are: consent (for newsletter subscriptions and analytics cookies), legitimate interests (for site security and fraud prevention), and legal obligation (for required records). You may lodge a complaint with your local data protection authority.</p>
-          <p className="mt-6 pb-4">To exercise any of these rights, contact us at <a href="mailto:privacy@moonshotmindset.com" className="text-coral hover:underline">privacy@moonshotmindset.com</a>.</p>
+          <p className="mt-6 pb-4">To exercise any of these rights, contact us at <a href="mailto:privacy@moonshotmindset.co" className="text-coral hover:underline">privacy@moonshotmindset.co</a>.</p>
 
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">9. Children&#39;s privacy</h3>
-          <p className="pb-4">Moonshot Academy and Moonshot Mindset are designed for adults. We do not knowingly collect personal information from anyone under the age of 13. If we learn that we have collected information from a child under 13, we will delete it promptly. If you believe we may have information about a child, please contact us at <a href="mailto:privacy@moonshotmindset.com" className="text-coral hover:underline">privacy@moonshotmindset.com</a>.</p>
+          <p className="pb-4">Moonshot Mindset and Moonshot Academy are designed for adults. We do not knowingly collect personal information from anyone under the age of 13. If we learn that we have collected information from a child under 13, we will delete it promptly. If you believe we may have information about a child, please contact us at <a href="mailto:privacy@moonshotmindset.co" className="text-coral hover:underline">privacy@moonshotmindset.co</a>.</p>
 
           <hr className="border-midnight/10 my-10" />
 
@@ -146,7 +144,7 @@ export default function PrivacyPolicy() {
           <hr className="border-midnight/10 my-10" />
 
           <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">11. Third-party links</h3>
-          <p className="pb-4">Our site may contain links to third-party websites, including the Moonshot Foundation site, Zoom, and others. This privacy policy applies only to moonshotmindset.com. We are not responsible for the privacy practices of other sites and encourage you to read their policies.</p>
+          <p className="pb-4">Our site may contain links to third-party websites, including the Moonshot Foundation site, Zoom, and others. This privacy policy applies only to moonshotmindset.co. We are not responsible for the privacy practices of other sites and encourage you to read their policies.</p>
 
           <hr className="border-midnight/10 my-10" />
 
@@ -155,16 +153,8 @@ export default function PrivacyPolicy() {
 
           <hr className="border-midnight/10 my-10" />
 
-          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">13. Contact us</h3>
-          <p>If you have questions, concerns, or requests regarding this privacy policy or your personal information:</p>
-
-          <p className="mt-4 font-semibold pb-8 text-midnight">
-            Moonshot Foundation<br />
-            8605 Santa Monica Blvd. #40215<br />
-            West Hollywood, CA 90069<br />
-            <a href="mailto:privacy@moonshotmindset.com" className="text-coral hover:underline font-normal">privacy@moonshotmindset.com</a><br />
-            <span className="font-normal">(424) 888-2735</span>
-          </p>
+          <h3 className="heading-md text-2xl text-midnight mt-10 mb-4">13. Contact</h3>
+          <p className="pb-8">Armstrong Ventures, Inc. DBA Moonshot Mindset <a href="mailto:privacy@moonshotmindset.co" className="text-coral hover:underline font-normal">privacy@moonshotmindset.co</a></p>
 
         </div>
       </main>
