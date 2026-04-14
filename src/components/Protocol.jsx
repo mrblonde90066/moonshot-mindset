@@ -54,7 +54,7 @@ export default function Protocol() {
         <div className="pt-8 md:pt-12 flex flex-col lg:flex-row gap-12 lg:gap-24 relative">
           
           {/* Section Header - Left Side (Sticky) */}
-          <div className="w-full lg:w-5/12 lg:sticky lg:top-32 self-start">
+          <div className="w-full lg:w-5/12 lg:sticky lg:top-32 self-start lg:pt-3">
             <h2 className="heading-lg text-midnight text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
               Here's how we <br className="hidden lg:block" />
               <span className="drama-text text-coral" style={{ fontSize: '1.15em' }}>change that.</span>
@@ -62,7 +62,7 @@ export default function Protocol() {
           </div>
 
           {/* Protocol Steps - Right Side (Vertical Stack) */}
-          <div className="w-full lg:w-7/12 flex flex-col lg:pt-20">
+          <div className="w-full lg:w-7/12 flex flex-col">
             {steps.map((step, i) => (
               <div key={step.number}>
                 {i > 0 && (
