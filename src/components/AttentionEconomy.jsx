@@ -32,19 +32,13 @@ export default function AttentionEconomy() {
   return (
     <section ref={sectionRef} className="relative bg-peach py-24 md:py-36 overflow-hidden">
       <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-12 lg:px-20">
-        {/* Main content in white card */}
         <div className="bg-white border border-midnight/10 rounded-[2rem] p-8 md:p-12 shadow-lg shadow-midnight/5">
-          
-          {/* Section Marker */}
-          <div className="attn-reveal text-center mb-8">
-            <span className="text-xs text-midnight/60 uppercase tracking-[0.2em] font-medium">The Attention Economy</span>
-          </div>
 
-          <div className="attn-reveal text-center mb-8">
-            <h2 className="heading-lg text-midnight text-2xl md:text-3xl lg:text-4xl mb-6 leading-tight max-w-3xl mx-auto">
+          <div className="attn-reveal mb-8">
+            <h2 className="heading-lg text-midnight text-2xl md:text-3xl lg:text-4xl mb-6 leading-tight max-w-3xl">
               Right now, the single biggest drag on your trajectory are the <span className="drama-text text-coral" style={{ fontSize: '1.35em' }}>apps on your phone</span> — and that's no accident.
             </h2>
-            <p className="text-midnight/70 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+            <p className="text-midnight/70 text-base md:text-lg leading-relaxed max-w-2xl">
               If you feel exhausted, scattered, unable to focus or be present, you are not alone. Welcome to the Attention Economy.
             </p>
           </div>
@@ -58,14 +52,14 @@ export default function AttentionEconomy() {
             </p>
 
             <div className="text-midnight/80 text-base md:text-lg leading-relaxed pt-4">
-              <p className="mb-4">
+              <p className="mb-6">
                 Their most powerful tools? <strong className="text-coral">Fear. Anxiety. Outrage. FOMO.</strong>
               </p>
-              <blockquote className="border-l-2 border-coral/40 pl-6 my-6 bg-midnight/[0.02] p-4 rounded-r-xl">
-                <p className="drama-text text-midnight/90 text-xl md:text-2xl leading-snug mb-2">
+              <blockquote className="border-l-2 border-coral/50 pl-6 my-8 py-1">
+                <p className="drama-text text-midnight/90 text-xl md:text-2xl leading-snug mb-3">
                   "When you optimize for engagement, you optimize for outrage."
                 </p>
-                <footer className="text-midnight/50 text-xs tracking-wide">— Jaron Lanier</footer>
+                <footer className="eyebrow text-midnight/40">— Jaron Lanier</footer>
               </blockquote>
               <p className="mb-4">
                 And not just while you're on your phone. These powerful emotions push your mind back toward your phone.
@@ -84,7 +78,7 @@ export default function AttentionEconomy() {
               You can't afford to keep giving it to them.
             </p>
           </div>
-          
+
         </div>
       </div>
     </section>

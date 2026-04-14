@@ -55,7 +55,6 @@ export default function Protocol() {
           
           {/* Section Header - Left Side (Sticky) */}
           <div className="w-full lg:w-5/12 lg:sticky lg:top-32 self-start">
-            <span className="text-xs text-midnight/60 uppercase tracking-[0.2em] block mb-4 font-medium">The Protocol</span>
             <h2 className="heading-lg text-midnight text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
               Here's how we <br className="hidden lg:block" />
               <span className="drama-text text-coral" style={{ fontSize: '1.15em' }}>change that.</span>
@@ -63,19 +62,23 @@ export default function Protocol() {
           </div>
 
           {/* Protocol Steps - Right Side (Vertical Stack) */}
-          <div className="w-full lg:w-7/12 flex flex-col gap-16 lg:gap-24 lg:pt-20">
+          <div className="w-full lg:w-7/12 flex flex-col lg:pt-20">
             {steps.map((step, i) => (
-              <div
-                key={step.number}
-                ref={el => cardsRef.current[i] = el}
-                className="flex flex-col md:flex-row items-start gap-6 md:gap-10"
-              >
-                <div className="shrink-0">
-                  <span className="drama-text text-coral/25 text-7xl md:text-8xl leading-none block md:mt-[-0.2em]">{step.number}</span>
-                </div>
-                <div>
-                  <h3 className="heading-lg text-midnight text-2xl md:text-3xl mb-3">{step.title}</h3>
-                  <p className="text-midnight/70 text-base md:text-lg leading-relaxed max-w-lg">{step.description}</p>
+              <div key={step.number}>
+                {i > 0 && (
+                  <div className="border-t border-midnight/10 my-16 lg:my-24" />
+                )}
+                <div
+                  ref={el => cardsRef.current[i] = el}
+                  className="flex flex-col md:flex-row items-start gap-6 md:gap-10"
+                >
+                  <div className="shrink-0">
+                    <span className="drama-text text-coral text-7xl md:text-8xl leading-none block md:mt-[-0.2em]">{step.number}</span>
+                  </div>
+                  <div>
+                    <h3 className="heading-lg text-midnight text-2xl md:text-3xl mb-3">{step.title}</h3>
+                    <p className="text-midnight/70 text-base md:text-lg leading-relaxed max-w-lg">{step.description}</p>
+                  </div>
                 </div>
               </div>
             ))}

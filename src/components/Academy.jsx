@@ -75,11 +75,11 @@ export default function Academy() {
       <div className="absolute inset-0 bg-midnight/70" />
 
       <div className="relative z-10 max-w-4xl mx-auto">
-        {/* Timeline in a subtle elevated card for dark sections */}
         <div className="bg-white/[0.06] backdrop-blur-sm border border-peach/10 rounded-[2rem] p-8 md:p-12">
-          <div className="academy-reveal mb-16 text-center">
-            <h2 className="heading-lg text-3xl md:text-5xl mb-6">Inside Moonshot Academy</h2>
-            <div className="space-y-4 text-peach/80 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto text-left">
+
+          <div className="academy-reveal mb-16">
+            <h2 className="heading-lg text-3xl md:text-5xl mb-8 text-peach">Inside Moonshot Academy</h2>
+            <div className="space-y-4 text-peach/80 text-lg md:text-xl leading-relaxed max-w-3xl">
               <p>
                 You come in with one behavior you've been struggling to change - doomscrolling social media, compulsively reading the news…
               </p>
@@ -91,18 +91,17 @@ export default function Academy() {
               </p>
             </div>
           </div>
-          
+
           <div className="relative border-l border-peach/20 pl-6 md:pl-10 ml-2 md:ml-4 space-y-12 md:space-y-16 mt-12">
             {timelineSteps.map((step) => (
               <div key={step.week} className="academy-reveal relative">
-                {/* Dot */}
                 <div className="absolute -left-[31px] md:-left-[47px] top-1 w-4 h-4 rounded-full bg-coral border-4 border-midnight" />
-                
+
                 <div className="mb-2">
-                  <span className="text-coral text-sm md:text-base uppercase tracking-[0.15em] block mb-1 font-medium">{step.week}</span>
+                  <span className="eyebrow text-coral/80 block mb-2">{step.week}</span>
                   <h3 className="heading-md text-xl md:text-2xl text-peach">{step.title}</h3>
                 </div>
-                
+
                 <div className="space-y-3 mt-4">
                   {step.points.map((point, idx) => (
                     <p key={idx} className="text-peach/70 text-base md:text-lg leading-relaxed">
@@ -113,6 +112,7 @@ export default function Academy() {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

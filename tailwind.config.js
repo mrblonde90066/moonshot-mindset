@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        peach: '#F6E9DF',
+        peach: '#FDF4EC',
         midnight: '#0B0D63',
         coral: '#F08E80',
         silver: '#A0AAB2',

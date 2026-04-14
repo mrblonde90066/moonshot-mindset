@@ -84,16 +84,18 @@ There’s no content library to work through. Most programs measure value by vol
   },
 ];
 
-function FAQItem({ faq, isOpen, onToggle }) {
+function FAQItem({ faq, isOpen, onToggle, index }) {
   const contentRef = useRef(null);
+  const num = String(index + 1).padStart(2, '0');
 
   return (
     <div className={`border-b border-midnight/10 transition-colors duration-300 ${isOpen ? 'bg-white/50' : ''}`}>
       <button
         onClick={onToggle}
-        className="w-full flex items-start justify-between gap-4 py-6 px-6 md:px-8 text-left group"
+        className="w-full flex items-start gap-4 md:gap-6 py-6 px-6 md:px-8 text-left group"
       >
-        <span className={`font-heading font-semibold text-base md:text-lg transition-colors duration-300 ${isOpen ? 'text-coral' : 'text-midnight'}`}>
+        <span className="mono-text text-coral/60 text-xs mt-1 shrink-0 w-6">{num}</span>
+        <span className={`flex-1 font-heading font-semibold text-base md:text-lg transition-colors duration-300 ${isOpen ? 'text-coral' : 'text-midnight'}`}>
           {faq.q}
         </span>
         <ChevronDown
@@ -147,7 +149,7 @@ export default function FAQ() {
     <section ref={sectionRef} className="section-pad bg-white" id="faq">
       <div className="max-w-4xl mx-auto px-6 md:px-0">
         <div className="pt-8 md:pt-12">
-          <div className="mb-12 text-center md:text-left">
+          <div className="mb-12">
             <h2 className="heading-lg text-midnight text-3xl md:text-4xl lg:text-5xl">
               Moonshot FAQs
             </h2>
@@ -158,6 +160,7 @@ export default function FAQ() {
               <FAQItem
                 key={i}
                 faq={faq}
+                index={i}
                 isOpen={openIndex === i}
                 onToggle={() => setOpenIndex(openIndex === i ? -1 : i)}
               />

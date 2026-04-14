@@ -45,8 +45,8 @@ export default function Newsletter() {
         style={{ backgroundImage: `url('${earthriseBg}')` }}
       />
       
-      {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-midnight/40" />
+      {/* Overlay — heavier tint so Earthrise reads as atmosphere, not literal photo */}
+      <div className="absolute inset-0 bg-midnight/75" />
 
       {/* Content */}
       <div className="relative z-10 w-full px-6 md:px-12">

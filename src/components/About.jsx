@@ -87,11 +87,13 @@ export default function About() {
             </p>
           </div>
 
-          <div className="about-reveal flex flex-col sm:flex-row gap-6 items-center bg-midnight/[0.02] border border-midnight/5 rounded-[2rem] p-6">
-            <img src={carlJungPic} alt="Carl Jung" className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover grayscale mix-blend-multiply opacity-80" />
-            <blockquote className="flex-1 drama-text text-xl sm:text-2xl text-midnight/90 italic">
-              "Until you make the unconscious conscious, it will direct your life, and you will call it fate."
-              <footer className="mono-text mt-2 block text-sm not-italic opacity-60">— Carl Jung</footer>
+          <div className="about-reveal flex flex-col sm:flex-row gap-8 items-start py-4">
+            <img src={carlJungPic} alt="Carl Jung" className="w-20 h-20 sm:w-28 sm:h-28 rounded-full object-cover grayscale opacity-65 flex-shrink-0" />
+            <blockquote className="flex-1 border-l-2 border-coral/40 pl-6">
+              <p className="drama-text text-xl sm:text-2xl text-midnight/90 leading-snug">
+                "Until you make the unconscious conscious, it will direct your life, and you will call it fate."
+              </p>
+              <footer className="mono-text mt-3 block text-sm text-midnight/50">— Carl Jung</footer>
             </blockquote>
           </div>
 
@@ -119,23 +121,23 @@ export default function About() {
             </p>
           </div>
 
-          <div className="about-reveal text-center mt-8 pt-8 border-t border-midnight/10">
+          <div className="about-reveal mt-8 pt-8 border-t border-midnight/10">
             <h3 className="heading-md text-midnight text-2xl md:text-3xl mb-4">
               What emerged is the <span className="drama-text text-coral" style={{ fontSize: '1.15em' }}>Moonshot Method</span>
             </h3>
-            <p className="text-midnight/70 mb-6 max-w-2xl mx-auto">
+            <p className="text-midnight/70 mb-6 max-w-2xl">
               The most effective and efficient way to Change Your Mind that I've ever seen.
             </p>
-            <p className="text-midnight/80 leading-relaxed mb-6 max-w-3xl mx-auto">
+            <p className="text-midnight/80 leading-relaxed mb-6 max-w-3xl">
               I capitalize 'Change Your Mind' because it's a real life superpower. This skill is the single most important thing I'm teaching my daughters - especially in a world that is changing faster than ever.
             </p>
-            <p className="text-midnight/80 leading-relaxed max-w-3xl mx-auto border-t border-midnight/10 pt-6">
+            <p className="text-midnight/80 leading-relaxed max-w-3xl border-t border-midnight/10 pt-6">
               To create and implement this for a large company would cost them millions of dollars.
             </p>
           </div>
 
-          <div className="about-reveal text-center pt-6">
-            <p className="text-xl md:text-2xl font-bold text-midnight max-w-3xl mx-auto leading-relaxed">
+          <div className="about-reveal pt-6">
+            <p className="text-xl md:text-2xl font-bold text-midnight max-w-3xl leading-relaxed">
               Now I'm on a mission to share this with as many people as possible for free - starting with you.
             </p>
           </div>

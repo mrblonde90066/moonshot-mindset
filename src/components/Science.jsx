@@ -81,7 +81,7 @@ export default function Science() {
                   onClick={() => setOpenIndex(isOpen ? -1 : i)}
                   className="w-full text-left py-5 px-6 md:px-12 flex items-start gap-4 md:gap-6 focus:outline-none group"
                 >
-                  <span className="text-coral text-sm md:text-base mt-1 shrink-0 font-medium tracking-wide">{point.num}</span>
+                  <span className="mono-text text-coral text-sm mt-1 shrink-0">{point.num}</span>
                   <p className={`flex-1 heading-md text-lg md:text-xl transition-colors duration-300 ${isOpen ? 'text-midnight' : 'text-midnight/70 group-hover:text-midnight'}`}>
                     {point.title}
                   </p>
