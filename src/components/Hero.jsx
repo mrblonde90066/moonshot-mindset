@@ -75,7 +75,7 @@ export default function Hero() {
         <div className="mb-6">
           <h1>
             <span className="hero-line-1 block heading-xl text-peach text-[2.75rem] sm:text-5xl md:text-6xl lg:text-7xl mb-2 md:mb-3">
-              Get Better at
+              Get Better At
             </span>
             <span className="hero-line-2 block drama-text text-coral text-[3.5rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[6.5rem] leading-[0.85] mt-2">
               Getting Better.
